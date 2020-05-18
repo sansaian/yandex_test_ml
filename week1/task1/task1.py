@@ -3,7 +3,7 @@ import operator
 
 
 def main():
-    data = pandas.read_csv('titanic.csv', index_col='PassengerId')
+    data = pandas.read_csv('../titanic.csv', index_col='PassengerId')
 
     # how match male and fenale on bord ?
     count_sex = data['Sex'].value_counts()
